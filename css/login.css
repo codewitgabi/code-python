@@ -15,6 +15,9 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+main {
+    margin: 2em 0;
+}
 .form-wrapper {
     width: 300px;
     box-shadow: 0 0 5px var(--light-green);
