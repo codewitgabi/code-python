@@ -44,9 +44,11 @@ main {
 }
 .form-fields input {
     width: 100%;
-    padding: 10px 5px;
+    padding: 10px 10px;
     border: 2px solid var(--light-green);
     border-radius: 4px;
+    background: #27282c;
+    color: var(--text-color);
 }
 .form-fields input:focus {
     box-shadow: 0 0 10px var(--light-green);
