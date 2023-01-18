@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <main>
+        <div class="form-wrapper">
+            <div class="form-avatar">
+                <img src="./img/logo.png" alt="avatar" id="form-avatar">
+            </div>
+            <div class="form-content">
+                <form action="" method="" enctype="multipart/form-data">
+                    <div class="form-field">
+                        <label>First Name</label>
+                        <input type="text" name="first-name" id="first-name" autocapitalize="off" required>
+                    </div>
+                    <div class="form-field">
+                        <label>Last Name</label>
+                        <input type="text" name="last-name" id="last-name" autocapitalize="off" required>
+                    </div>
+                    <div class="form-field">
+                        <label>Username</label>
+                        <input type="text" name="username" id="username" autocapitalize="off" required>
+                    </div>
+                    <div class="form-field">
+                        <label>Email</label>
+                        <input type="email" name="email" autocapitalize="off" id="email" required>
+                    </div>
+                    <div class="form-field">
+                        <label>Select profile photo</label>
+                        <input type="file" accept="*.jpg, *.png" name="dp" id="dp" required>
+                    </div>
+                    <div class="form-field">
+                        <label>Password</label>
+                        <input type="password" name="password" id="password" autocapitalize="false" required>
+                    </div>
+                    <div class="checkbox-field">
+                        <input type="checkbox" name="is-author" id="is-author">
+                        <span>Become an author?</span>
+                    </div>
+                    <div class="checkbox-field">
+                        <input type="checkbox" name="t-and-c" id="t-and-c"required>
+                        <span>I agree to the <a href="#">Terms</a></span>
+                    </div>
+                    <button id="register-btn">Register</button>
+                    <div class="form-bottom">
+                        <span>Already have an account?</span>
+                        <a href="#">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
