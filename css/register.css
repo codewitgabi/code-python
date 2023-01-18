@@ -12,6 +12,7 @@
     color: var(--text-color);
     display: block;
     margin: 10px 0;
+    font-family: Sans-Serif;
 }
 .form-field input[type="text"],
 .form-field input[type="email"],
@@ -19,7 +20,7 @@
     width: 100%;
     padding: 10px;
     background: #27282c;
-    color: var(--text-color);
+    color: #fff;
 }
 .form-field input[type="text"]:focus,
 .form-field input[type="email"]:focus,
