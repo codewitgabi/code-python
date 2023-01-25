@@ -160,10 +160,16 @@ footer a {
     nav {
         padding: 0.5em;
         margin: 1em;
+        background: #27282c;
+    }
+    nav a {
+        color: #fff;
+        font-weight: Helvetica;
     }
     .fa-close,
     .fa-bars {
         display: block;
+        color: orange;
     }
     #nav-logo {
         width: 40px;
@@ -176,7 +182,7 @@ footer a {
         left: 0;
         right: 0;
         display: block;
-        background: #fff;
+        background: #27282c;
         padding: 1em;
         z-index: 5;
         transition: 1s;
@@ -185,19 +191,36 @@ footer a {
         float: right;
         display: block;
         margin-bottom: 1em;
+        font-weight: 100;
     }
     #auth {
         width: fit-content;
         padding: 5px 20px;
+        color: #27282c;
+        background: #fff;
     }
     .nav-right-section a {
         display: block;
         margin: 10px 0;
+        color: #;
     }
     .main-container {
         display: block;
         margin-left: 1em;
         margin-right: 1em;
+    }
+    .col-right {
+        background: #27282c;
+        color: #fff;
+        font-size: 1rem;
+    }
+    .fa {
+        color: #fff;
+    }
+    .fa-twitter-square,
+    .fa-facebook-square,
+    .fa-github-square {
+        color: #5b86e8;
     }
     .forms-container {
         display: block;
@@ -206,12 +229,28 @@ footer a {
     }
     .col-left {
         margin-top: 1.5em;
+        background: #27282c;
+        color: #fff;
     }
     .recent-post-wrapper {
         width: fit-content;
     }
+    .col-left h3 {
+        color: #fff;
+    }
     .recent-post-img {
-        height: 150px;
+        height: 180px;
+        display: inline-block;
+        margin-bottom: 1em;
+    }
+    .main-post-info {
+        font-size: 0.9rem;
+    }
+    .main-post-content {
+        font-weight: 300;
+    }
+    .leave-message {
+        background: var(--bg-color);
     }
     #leave-message-btn {
         margin-bottom: 1em;
@@ -219,6 +258,7 @@ footer a {
     .leave-message h3 {
         padding: 1em;
         font-size: 1.2rem;
+        color: #fff;
     }
     footer {
         text-align: left;
